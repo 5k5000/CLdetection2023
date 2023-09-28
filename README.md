@@ -1,13 +1,13 @@
 # The Solution Repository for MICCAI CLDetection2023 by Team SUTD-VLG
 
-![PDF](Pictures_for_Github_only/main_framework.pdf)
+![PDF](https://github.com/5k5000/CLdetection2023/blob/master/Pictures_for_Github_only/main_framework.pdf)
 Our method will be made public on arxiv very soon.
 ## Performance
 
 The online results on the public leaderboards could be viewed at [board1](https://cl-detection2023.grand-challenge.org/evaluation/challenge/leaderboard/) and [board2](https://cl-detection2023.grand-challenge.org/evaluation/testing/leaderboard/). (Algorithm Name: SUTD-VLG,  User Name: fivethousand).
 
 
-![Online Result](Pictures_for_Github_only/Online Result.png)
+![Online Result](https://github.com/5k5000/CLdetection2023/blob/master/Pictures_for_Github_only/Online%20Result.png)
 
 Our method achieves 1st place ranking on three metrics and 3rd place on the remaining one.
 

@@ -1,6 +1,6 @@
 # The Solution Repository for MICCAI CLDetection2023 by Team SUTD-VLG
 
-![PDF](https://github.com/5k5000/CLdetection2023/blob/master/Pictures_for_Github_only/main_framework.pdf)
+![PDF](https://github.com/5k5000/CLdetection2023/blob/master/Pictures_for_Github_only/mainframework.png)
 Our method will be made public on arxiv very soon.
 ## Performance
 

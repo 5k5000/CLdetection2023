@@ -10,8 +10,8 @@ from mmengine.runner import Runner
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a pose model')
-    parser.add_argument('--config', help='train config file path',default="configs/ISBI2015/srpose_s2.py")
-    parser.add_argument('--work-dir', help='the dir to save logs and models',default="./MMPose-checkpoints/ISBI2015/exp2")
+    parser.add_argument('--config', help='train config file path',default="./configs/CLdetection2023/srpose_s2.py")
+    parser.add_argument('--work-dir', help='the dir to save logs and models',default="./MMPose-checkpoints/CLdetection/srpose_s2")
     parser.add_argument(
         '--resume',
         nargs='?',

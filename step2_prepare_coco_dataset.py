@@ -13,6 +13,7 @@ from tqdm import tqdm
 
 def main(config):
     # load image array and train ground truth landmarks json file
+    print('\n\nLoad image array and train ground truth landmarks json file.\n It will take some time, please wait...')
     train_stack_array = load_train_stack_data(config.mha_file_path)
     with open(config.train_gt_path, mode='r', encoding='utf-8') as f:
         train_gt_dict = json.load(f)
@@ -69,11 +70,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     # data parameters
-    parser.add_argument('--mha_file_path', type=str, default='./data/challenges/CLdetection2023/train_stack.mha')
-    parser.add_argument('--train_gt_path', type=str, default='./data/challenges/CLdetection2023/train-gt.json')
-
+    parser.add_argument('--mha_file_path', type=str, default='./data/train_stack.mha')
+    parser.add_argument('--train_gt_path', type=str, default='./data/train-gt.json')
     # save processed images dir path
-    parser.add_argument('--image_save_dir', type=str, default='./data/challenges/CLdetection2023/preprocessed')
+    parser.add_argument('--image_save_dir', type=str, default='./data/preprocessed')
 
     experiment_config = parser.parse_args()
     main(experiment_config)

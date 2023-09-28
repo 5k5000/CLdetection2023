@@ -131,7 +131,7 @@ model = dict(
 
 dataset_type = 'CephalometricDataset'
 data_mode = 'topdown'
-data_root = './data/challenges/CLdetection2023'
+data_root = './data/'
 
 
 # meta_keys is used to add 'spacing' information, please do not change it if you don't know its usage
@@ -167,7 +167,7 @@ train_dataloader = dict(
         type=dataset_type,
         data_root=data_root,
         data_mode='topdown',
-        ann_file='trainval_fold.json',
+        ann_file='train.json',
         data_prefix=dict(img='preprocessed/'),
         pipeline=train_pipeline))
 
@@ -181,7 +181,7 @@ val_dataloader = dict(
         type=dataset_type,
         data_root=data_root,
         data_mode='topdown',
-        ann_file='test.json',
+        ann_file='valid.json',
         data_prefix=dict(img='preprocessed/'),
         test_mode=True,
         pipeline=val_pipeline))

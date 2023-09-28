@@ -1,0 +1,9 @@
+data
+MMPose-checkpoints
+work_dirs
+*.log
+__pycache__
+*.__pycache__
+*.pyc
+*.png
+external_repos

@@ -13,4 +13,4 @@ Our method achieves 1st place ranking on three metrics and 3rd place on the rema
 
 
 ## Acknowledgement
-We would like to thank Hongyuan Zhang et al. for providing well-established [baselines](https://github.com/szuboy/CL-Detection2023) and his altruistic service for the contest. We appreciate all the contributors of the [MMPose](https://github.com/open-mmlab/mmpose) Package.
+We would like to thank the [MICCAI CLDetection2023 organizers](https://cl-detection2023.grand-challenge.org/) for providing well-established [baselines](https://github.com/szuboy/CL-Detection2023) and their altruistic service for the contest. We appreciate all the contributors of the [MMPose](https://github.com/open-mmlab/mmpose) Package. We thank the authors of [SRPose](https://github.com/haonanwang0522/SRPose) for making their code public. 

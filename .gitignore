@@ -5,5 +5,4 @@ work_dirs
 __pycache__
 *.__pycache__
 *.pyc
-*.png
 external_repos

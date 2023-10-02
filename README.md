@@ -1,7 +1,7 @@
-# The Solution Repository for MICCAI CLDetection2023 by Team SUTD-VLG
+# The Solution Repository for MICCAI CLDetection2023 of Team SUTD-VLG
 
 ![PDF](https://github.com/5k5000/CLdetection2023/blob/master/Pictures_for_Github_only/mainframework.png)
-Our method will be made public on arxiv very soon.
+Our technical report is available at [https://arxiv.org/pdf/2309.17143.pdf](https://arxiv.org/pdf/2309.17143.pdf)
 ## Performance
 
 The online results on the public leaderboards could be viewed at [board1](https://cl-detection2023.grand-challenge.org/evaluation/challenge/leaderboard/) and [board2](https://cl-detection2023.grand-challenge.org/evaluation/testing/leaderboard/). (Algorithm Name: SUTD-VLG,  User Name: fivethousand).
@@ -73,7 +73,18 @@ Test with the pretrained weights:
 python step4_test_and_visualize.py --config 'configs/CLdetection2023/srpose_s2.py' --checkpoint './MMPose-checkpoints/CLdetection/srpose_s2/demo.pth'
 ```
 
-
+## Citation
+If you find this repo useful, please consider giving us a star and citing our paper.
+```
+@misc{wu2023revisiting,
+      title={Revisiting Cephalometric Landmark Detection from the view of Human Pose Estimation with Lightweight Super-Resolution Head}, 
+      author={Qian Wu and Si Yong Yeo and Yufei Chen and Jun Liu},
+      year={2023},
+      eprint={2309.17143},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 
 

@@ -73,6 +73,17 @@ Test with the pretrained weights:
 python step4_test_and_visualize.py --config 'configs/CLdetection2023/srpose_s2.py' --checkpoint './MMPose-checkpoints/CLdetection/srpose_s2/demo.pth'
 ```
 
+
+### Others
+#### 1. single image inference
+please refer to `inference_single_image.py`
+
+```
+python inference_single_image.py --config 'configs/CLdetection2023/srpose_s2.py' --checkpoint './MMPose-checkpoints/CLdetection/srpose_s2/demo.pth' --mode "val"
+```
+
+
+
 ## Citation
 If you find this repo useful, please consider giving us a star and citing our paper.
 ```

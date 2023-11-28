@@ -82,7 +82,12 @@ please refer to `inference_single_image.py`
 python inference_single_image.py --config 'configs/CLdetection2023/srpose_s2.py' --checkpoint './MMPose-checkpoints/CLdetection/srpose_s2/demo.pth' --mode "val"
 ```
 
+### 2. Pretrained weights
+A model pre-trained on the combined train and val datasets is available at
+https://drive.google.com/file/d/10HrNDBBpuECTcgNgcWNUt7kM6m4ZMXM4/view?usp=sharing
 
+
+Note that we ensembled 7 models for our final submission in the MICCAI CLdetection2023 challenge. You can try our submitted docker at https://cl-detection2023.grand-challenge.org/evaluation/challenge/leaderboard/ after applying for it. (You need to register an account on that platform and request access to the algorithm).
 
 ## Citation
 If you find this repo useful, please consider giving us a star and citing our paper.

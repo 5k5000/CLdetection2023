@@ -116,7 +116,7 @@ def main(config):
                 MRE = np.sqrt((x0-gt_x)**2+(y0-gt_y)**2) * spacing
                 sdr2 = 1 if MRE <=2 else 0
                 
-                print("image_id:{} pid: {} predict ({},{}) gt ({},{})) MRE: {}".format(id,i,x0,y0,gt_x,gt_y,MRE))    
+                print("image_id:{} pid: {} predict ({},{}) gt ({},{})) MRE: {}".format(id, i + 1, x0, y0, gt_x, gt_y, MRE))
                 image_level_sdr2.append(sdr2)
                 image_level_mre.append(MRE)
                 total_sdr_list.append(sdr2)
